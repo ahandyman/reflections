@@ -1,0 +1,9 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+    git init sets up the repo and allows for version control. Needed to track changes.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+    Staging Area is right before the commit. Working directory is an active working directory. Value of two different areas control over what is being commited and ensuring the proper commits are made
+
+
