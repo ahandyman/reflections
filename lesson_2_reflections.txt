@@ -38,3 +38,7 @@ Creating a Github account and Adding a Remote Repository
 	git remote -v //displays github fetch/push info
 	git push origin master
 	done!! its on github
+
+Retrieving info from GitHub
+	
+	git pull origin [name] master [branch]
