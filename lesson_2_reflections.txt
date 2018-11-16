@@ -6,4 +6,35 @@ How is the staging area different from the working directory and the repository?
 
     Staging Area is right before the commit. Working directory is an active working directory. Value of two different areas control over what is being commited and ensuring the proper commits are made
 
+How can you use the staging area to make sure you have one commit per logical change?
 
+    Use git diff -- staged, inspect code and commit logical changes
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+    
+    Branches help with version control. Allow for more files to be worked on simultaneously and combined or not.
+
+How do the diagrams help you visualize the branch structure?
+
+   Represent the work as NON-LINEAR. provides a way to see whats being created and where.
+
+**  git checkout -b new-branch
+** git gc	(garbage clean)
+** git show (diff between commit and parent - useful after merges)
+** git branch -d (branch_name)	ONLY DELETES THE BRANCH NOT COMMITS
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+   Merging two branches consolidates all changes. Represented by two branches joining into one to represent master as the main branch with new changes.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+   
+   Git will find conflicts
+
+Creating a Github account and Adding a Remote Repository
+
+	git remote
+	git remote add origin[name] https:// [GITHUB-URL]
+	git remote -v //displays github fetch/push info
+	git push origin master
+	done!! its on github
